@@ -1,0 +1,125 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      margin-top: 50px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+
+    .header a {
+      margin-left: 10px;
+      padding: 10px 15px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      text-decoration: none;
+    }
+
+    .header a:hover {
+      background-color: #45a049;
+    }
+
+    footer{
+      background-color: #f8b500;
+      padding: 50px 0;
+     }
+    
+    .container-footer{
+      max-width: 1400px;
+      padding: 0 4%;
+      margin: auto;
+    }
+    
+    .row-footer{
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    
+    .footer-col{
+      width: 25%;
+      padding: 0 15px;
+    }
+     
+    .footer-col h4{
+      font-size: 22px;
+      color: white;
+      margin-bottom: 20px;
+      font-weight: 500;
+      position: relative;
+      text-transform: uppercase;
+    
+    }	
+    .footer-col ul{
+      list-style: none;
+    }
+    
+    .footer-col ul li{
+      margin: 10px;
+    }
+    
+    .footer-col ul li a{
+      font-size: 16px ;
+      text-transform: capitalize;
+      color: white;
+      text-decoration: none;
+      font-weight: 300;
+      display: block;
+      transition: all 0.3s ease;
+    
+    }
+    
+    .footer-col ul li a:hover{
+        color: #ceccdc;
+        padding: 10px;
+        
+    }
+    
+    .footer-col .medias-sociais{
+      margin-top: 30px;
+    }
+    
+    .footer-col .medias-sociais a {
+      display: inline flex;
+      align-items: center;
+      justify-content: center;
+      height: 40px;
+      width: 40px;
+      margin: 0 10px 10px 0;
+      text-decoration: none;
+      border-radius: 50%;
+      padding: 15px;
+      color: white;
+      border: 1px solid white;
+      transition: all 0.5s ease;
+    }
+    
+    .footer-col .medias-sociais a i{
+      font-size: 20px;
+    }
+    
+    .footer-col .medias-sociais a:hover{
+      color: #415aca;
+      background-color: white;
+    }
+    
+    
